@@ -1,1 +1,14 @@
-<p>login works!</p>
+<mat-grid-list cols="1">
+  <mat-grid-tile>
+    <button mat-raised-button color="primary" (click)="login()">
+      Ingresar
+    </button>
+  </mat-grid-tile>
+  <button 
+    mat-raised-button
+    color="warn"
+    (click)="sinLogin()"
+  >
+    Ingresar sin login
+  </button>
+</mat-grid-list>
